@@ -7,7 +7,7 @@ This repository is to help reproduce the issue that I am facing in using react-n
 * `exp detach`
 * `pods install`
 * Open `ios/rn-red5pro-on-expo.xcworkspace` in xcode
-* Build project. Buils succeeds and simulator shows sample app view
+* Build project. Build succeeds and simulator shows sample app view
 * Now start adding react-native-red5pro` specific changes.
 * `yarn add https://github.com/infrared5/react-native-red5pro/tarball/develop`
 * `yarn add add react-native-permissions`
