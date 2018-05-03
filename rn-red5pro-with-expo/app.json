@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "rn-red5pro-with-expo",
+    "description": "This project is really great.",
+    "slug": "rn-red5pro-with-expo",
+    "privacy": "public",
+    "sdkVersion": "27.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rn-red5pro.expo",
+      "publishBundlePath": "ios/rn-red5pro-with-expo/Supporting/shell-app.bundle",
+      "publishManifestPath": "ios/rn-red5pro-with-expo/Supporting/shell-app-manifest.json"
+    },
+    "isDetached": true,
+    "detach": {
+      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.5.4-sdk27.0.0-e68cfb94-9b7e-4510-aab9-8f375e187b0b.tar.gz",
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.5.0-sdk27.0.0-52e1bcea-f10c-4bf8-bfd7-d1630727dec0.tar.gz"
+    },
+    "scheme": "expa6bedb61925848f8be0f9a31418493ed",
+    "android": {
+      "package": "any.example.expo",
+      "publishBundlePath": "android/app/src/main/assets/shell-app.bundle",
+      "publishManifestPath": "android/app/src/main/assets/shell-app-manifest.json"
+    }
+  }
+}
